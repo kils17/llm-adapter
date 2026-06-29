@@ -1,0 +1,30 @@
+{
+    "id": "rerank-bac48ab8-22c3-4045-a3e2-babba2808083",
+    "model": "bge-reranker",
+    "usage": {
+        "total_tokens": 31
+    },
+    "results": [
+        {
+            "index": 1,
+            "document": {
+                "text": "Mouse"
+            },
+            "relevance_score": 0.0002120646386174485
+        },
+        {
+            "index": 2,
+            "document": {
+                "text": "Cheese"
+            },
+            "relevance_score": 6.885814946144819e-05
+        },
+        {
+            "index": 0,
+            "document": {
+                "text": "Cat"
+            },
+            "relevance_score": 3.935748463845812e-05
+        }
+    ]
+}
